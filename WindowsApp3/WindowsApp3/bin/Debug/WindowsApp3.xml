@@ -1,0 +1,74 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsApp3
+</name>
+</assembly>
+<members>
+<member name="T:WindowsApp3.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WindowsApp3.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WindowsApp3.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:WindowsApp3.frmSales">
+ <summary>
+ Author: Nigel Mansell
+ Date: 9/17/2017
+ This class uses two radio buttons, three checkboxes and three textboxes to
+ calculate the cost of one to 100 software license.
+ </summary>
+</member>
+<member name="M:WindowsApp3.frmSales.RadioButton1_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ This radio button is selected by default, when the other button is 
+ selected, this one is deselected.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp3.frmSales.RadioButton2_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ When this radio button is selected, the other is deselcted.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp3.frmSales.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+ This button calculates based off which radio button is selected
+ along with which checkboxes are selected and how many licenses
+ the user enters. After calculations, and checking the email,
+ displays back to the user.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp3.frmSales.btnClear_Click(System.Object,System.EventArgs)">
+ <summary>
+ Clears out all the all checkboxes, textboxes, and the lable at the
+ bottom, also makes use of a messagebox.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp3.frmSales.btnClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exits the program after making use of a messagebox.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

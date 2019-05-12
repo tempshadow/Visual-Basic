@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsApp4
+</name>
+</assembly>
+<members>
+<member name="T:WindowsApp4.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:WindowsApp4.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:WindowsApp4.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:WindowsApp4.Form1">
+ <summary>
+ Author: Nigel Mansell
+ Date: 9/30/2017
+ Description: This class, through the use of the procedures btnAdd, btnCalculate,
+ btnReset, and btnExit, adds to a list of costs due to the users selections from 
+ the two list boxes, lstWorkshop and lstLocation, and also calculates the total 
+ cost from all costs within the list of costs.  
+ </summary>
+</member>
+<member name="M:WindowsApp4.Form1.btnAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ This procedure adds a workshop to a list of costs.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp4.Form1.btnCalculate_Click(System.Object,System.EventArgs)">
+ <summary>
+ This procedure calcualtes all costs within list of costs, displays a
+ message if the list is empty
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp4.Form1.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ This procedure deselects all lists, clears the list of costs and the 
+ total, sets focus on first listbox
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsApp4.Form1.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ This procedure exits out of the program
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

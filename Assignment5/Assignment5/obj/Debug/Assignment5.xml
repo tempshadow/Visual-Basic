@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Assignment5
+</name>
+</assembly>
+<members>
+<member name="T:Assignment5.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Assignment5.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Assignment5.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Assignment5.Form1">
+ <summary>
+ Author: Nigel Mansell
+ Date: 10/07/2017
+ This form takes in information from the user to display the cost for all
+ options chosen, along with what was entered into the two text boxes.
+ </summary>
+</member>
+<member name="M:Assignment5.Form1.btnCalculate_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the four calculate functions from above to display for the user.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Assignment5.Form1.btnClear_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the four reset and clear function from above to uncheck and clear 
+ all check boxes and text boxes.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:Assignment5.Form1.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exits out of the form.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

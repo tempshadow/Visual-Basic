@@ -1,0 +1,15 @@
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.exe.config
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.exe
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.pdb
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.xml
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\obj\Debug\Mansell_Workshops.vbprojResolveAssemblyReference.cache
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.Form1.resources
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.Resources.resources
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\obj\Debug\Mansell_Workshops.vbproj.GenerateResource.Cache
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.exe
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.xml
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.pdb
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.exe.manifest
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\bin\Debug\WindowsApp4.application
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.exe.manifest
+C:\Users\nigel\Documents\Visual Studio 2017\Projects\WindowsApp4\WindowsApp4\obj\Debug\WindowsApp4.application

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsApp4.exe" version="1.0.0.0" publicKeyToken="af4338205317b7b6" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsApp4" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindowsApp4.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsApp4.exe" size="23008">
+      <assemblyIdentity name="WindowsApp4" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>G1fUur4fB7yzgmZ+C6SV5XYtICOUw9xa2kme9KsuU/A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WindowsApp4.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j5XMowm9qYcyNWR87Ke1KpLLXBlaYAR38CaZywZFE9o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-DI3DGIM\nigel" issuerKeyHash="e43187dfe4716c959b52f32132ca4e1ad3b2547e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+LzQmaBqNwwBzUv0YmQXR+gTpyfUtC61B0vhXzm/62k=</DigestValue></Reference></SignedInfo><SignatureValue>MGosltx3rBcEN2P/wS6cgKc0thdUFiQeHWUY+mi4dEOwcoMVLd1X1UgEsIPXtZiuvqYJIF2a7MSVNNXmNwqFtzj5GYqOF7cZRkHEp3c9brI8axGf6QyIIAscPkkgXgflTc/Y0mSZy+tdmr94g3dg2qvP6fCi/ruyhwQ+7FAl6Vg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tF3nQ0Sk5rdTIpJxwsHspdX13is5BOKF32Hiuj305xwE9WkvHw6ne5TiVQHgwu2pTfvFLGP+BqzU45tb1O4IKrRaCRuAzXl3GnHOCW4o8B4z4FI4O9ucmAQHXIWByUIfc8qDFj/iCbGSNIoWf1bqhqWjtYswtrJGNhzQEqXbmZ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="69ebbf395fe14b07b52eb4d427a713e847176462f44bcd010c376aa099d0bcf8" Description="" Url=""><as:assemblyIdentity name="WindowsApp4.exe" version="1.0.0.0" publicKeyToken="af4338205317b7b6" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-DI3DGIM\nigel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>c9kMy+36IccfeMDxcVXQ07Pu62bVwWGW+OZkAIrnPxA=</DigestValue></Reference></SignedInfo><SignatureValue>pN/C8jFxj//ACjkczDP7poCZoLo/qiTtxQ+Y/274F7PyjXIiweGOOs8picfcM0dWTfd55vIgPqPXCgdwWeoADKHmz1Nx/84SRnbkOw+dTch9G4sr+6Og+pYZZHZEYFlr2XT/WIXnXbiZwgNC18/5QUQ2rMGD/MpB1BWsj1GpvEA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tF3nQ0Sk5rdTIpJxwsHspdX13is5BOKF32Hiuj305xwE9WkvHw6ne5TiVQHgwu2pTfvFLGP+BqzU45tb1O4IKrRaCRuAzXl3GnHOCW4o8B4z4FI4O9ucmAQHXIWByUIfc8qDFj/iCbGSNIoWf1bqhqWjtYswtrJGNhzQEqXbmZ0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQSyu1H35IkINK+JnR9H+KODANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQASQAzAEQARwBJAE0AXABuAGkAZwBlAGwwHhcNMTcxMDAxMDgwMDA0WhcNMTgxMDAxMTQwMDA0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEQASQAzAEQARwBJAE0AXABuAGkAZwBlAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALRd50NEpOa3UyKSccLB7KXV9d4rOQTihd9h4ro99OccBPVpLx8Op3uU4lUB4MLtqU37xSxj/gas1OObW9TuCCq0WgkbgM15dxpxzgluKPAeM+BSODvbnJgEB1yFgclCH3PKgxY/4gmxkjSKFn9W6oalo7WLMLayRjYc0BKl25mdAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAkhfeMYjVB3tLYsw4P6J2ueX18GYRMmPNFJZDFPMZnZJxdiwK9txsS3+/TRULQwQK+JuCjmnk/9clDDLWqkjAseohU7yR4m/x6LJi7lEWADPRljyypFvY94i2APP4eRlchKEpLS/pIEN05tOU2U07o4BTgBViXQMObb+6XqQhxZw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
